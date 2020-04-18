@@ -1,0 +1,173 @@
+body {
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+.title {
+  background: #ff4c68;
+  color: white;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 3.4rem;
+  line-height: 1.5;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+h3 {
+  font-weight: bold;
+  margin-top: 7%;
+}
+p {
+  padding: 5% 20%;
+  color: grey;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+ /* NAV BAR */
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding:0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+/* Downlaod bTN */
+.d-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.t-img{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 10%;
+  position: absolute;
+  right: 5rem;
+}
+
+.features {
+  padding: 13% ;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+.icon {
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.testimonial {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%
+}
+.testimonial-text {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.press {
+  background-color: #ef8172;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 1rem 13% 0 13%;
+}
+.pricing {
+  text-align: center;
+}
+.table-items {
+  margin: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.table{
+padding-left: 8%;
+}
+.pricing-p {
+  padding: 1rem 0 3rem ;
+}
+.price-h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.btns{
+  margin-top: 33px;
+}
+.btn-1:hover {
+
+  background-color:  #ff4c68;
+}
+.btn-2 {
+  background-color: #ef8172;
+  color: white;
+}
+.btn-2:hover {
+  background-color:  #ff4c68;
+}
+
+.cta {
+
+background-color: #ff4c68;
+color: white;
+text-align: center;
+padding:  5% 5%;
+margin-top: 8%;
+}
+
+.cta-h3 {
+
+font-size: 3rem;
+padding-bottom: 1%;
+
+}
+
+.footer{
+
+padding: 7% 15%;
+text-align: center;
+}
+
+.footer-icon {
+  padding: 0 1% 0 1%;
+  font-size: 2rem;
+}
+@media (max-width:1000px) {
+
+  .t-img{
+    transform: rotate(0);
+    position: static;
+  }
+  .title {
+
+  text-align: center;
+
+  }
+
+}
